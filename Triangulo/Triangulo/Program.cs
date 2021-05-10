@@ -19,7 +19,8 @@ namespace Triangulo
             Triangulo triangulo4 = new Triangulo(4, 4, 12);
             Triangulo triangulo5 = new Triangulo(-2, -2, -2);
             Triangulo triangulo6 = new Triangulo(3, 0, 3);
-            
+            Triangulo triangulo7 = new Triangulo(1, 2, 3);
+
 
 
             Console.Write("Triangulo 1:");
@@ -45,6 +46,10 @@ namespace Triangulo
             Console.Write("Triangulo 6: ");
             Console.Write(triangulo6.ExibirValores());
             Console.WriteLine(triangulo6.Tipo());
+
+            Console.Write("Triangulo 7: ");
+            Console.Write(triangulo7.ExibirValores());
+            Console.WriteLine(triangulo7.Tipo());
 
             Console.ReadLine();
 

@@ -37,7 +37,7 @@ namespace Triangulo
                 Console.ResetColor();
                 return false;
             }
-            if ((x > (y + z)) || (y > (x + z)) || (z > (x + y)))
+            if ((x >= (y + z)) || (y >= (x + z)) || (z >= (x + y)))
             {
                 Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("Erro: um lado do triangulo é maior que a soma dos outros dois lados");
